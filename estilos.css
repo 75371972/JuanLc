@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+    padding-top: 220px;
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    color: black;
+    background-color: rgb(212, 139, 139);
+    border:0px ;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url(image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+img {
+    width: 250px;
+}
